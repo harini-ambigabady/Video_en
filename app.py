@@ -39,7 +39,7 @@ def capture_and_enhance():
 
 @app.route('/')
 def index():
-    return render_template('video_en.html')    
+    return render_template('index.html')    
 
 @app.route('/video_feed')
 def video_feed():
